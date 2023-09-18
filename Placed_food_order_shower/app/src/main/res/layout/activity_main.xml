@@ -28,7 +28,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter order 1" />
+        android:hint="Enter order 1" />
 
     <EditText
         android:id="@+id/eT2"
@@ -38,7 +38,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter order 2" />
+        android:hint="Enter order 2" />
 
     <EditText
         android:id="@+id/eT3"
@@ -48,7 +48,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter order 3" />
+        android:hint="Enter order 3" />
 
     <EditText
         android:id="@+id/eT4"
@@ -58,7 +58,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter order 4" />
+        android:hint="Enter order 4" />
 
     <Button
         android:id="@+id/btnOrder"
