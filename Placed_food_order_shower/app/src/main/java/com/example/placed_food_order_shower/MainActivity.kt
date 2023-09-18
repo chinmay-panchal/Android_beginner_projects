@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
         binding?.btnOrder?.setOnClickListener {
             val ordersPlaced = "${binding?.eT1?.text.toString()} ${binding?.eT2?.text.toString()} ${binding?.eT3?.text.toString()} ${binding?.eT4?.text.toString()}"
-
+//          val ordersPlaced= eT1.text.toString() + " " + eT2.text.toString() + " "+eT3.text.toString() + " " + eT4.text.toString()
             intent = Intent(this, Order::class.java)
             intent.putExtra(KEY, ordersPlaced)
             startActivity(intent)
