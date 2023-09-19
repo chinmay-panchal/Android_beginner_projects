@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_skyblue_pink"
+    tools:context=".SignUp_screen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:helperText="*Required"
+        app:helperTextTextColor="@color/red"
+        android:layout_margin="10dp"
+        android:background="@drawable/greybackground"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/greybackground"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:startIconDrawable="@drawable/baseline_contact_mail_24"
+        app:helperText="*Required"
+        app:helperTextTextColor="@color/red"
+        android:layout_margin="10dp"
+        android:background="@drawable/greybackground"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textEmailAddress"
+            android:hint="Mail"
+            android:background="@drawable/greybackground"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:startIconDrawable="@drawable/baseline_lock_person_24"
+        app:helperText="*Required"
+        app:helperTextTextColor="@color/red"
+        android:layout_margin="10dp"
+        android:background="@drawable/greybackground"
+        app:endIconMode="password_toggle"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/greybackground"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greybackground"
+        android:text="SIGN UP" />
+
+
+</LinearLayout>
