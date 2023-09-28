@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "723898408538",
+    "project_id": "database-understanding-lecture",
+    "storage_bucket": "database-understanding-lecture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723898408538:android:f232fad766285bde624263",
+        "android_client_info": {
+          "package_name": "com.example.database_understanding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKuIMJ7AiGd1DlxOQf1DE1Li2og659h6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
