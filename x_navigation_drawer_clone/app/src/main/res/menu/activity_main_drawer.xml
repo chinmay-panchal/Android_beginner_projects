@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/baseline_person_outline_white_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/twitterx"
+            android:title="Premium" />
+        <item
+            android:id="@+id/nav_communities"
+            android:icon="@drawable/baseline_people_outline_white_24dp"
+            android:title="Communities"
+            />
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/baseline_bookmark_border_white_24dp"
+            android:title="Bookmarks"
+            />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/baseline_list_alt_white_24dp"
+            android:title="Lists"
+            />
+        <item
+            android:id="@+id/nav_spaces"
+            android:icon="@drawable/baseline_graphic_eq_white_24dp"
+            android:title="Spaces"
+            />
+        <item
+            android:id="@+id/nav_monetization"
+            android:icon="@drawable/cash"
+            android:title="Monetization"
+            />
+        <item
+            android:id="@+id/nav_down"
+            android:icon="@drawable/down_arrow"
+            android:title="Setting and Support"
+            />
+    </group>
+</menu>
