@@ -58,6 +58,5 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Main Activity ", "onFailure: " + t.message)
             }
         })
-
     }
 }
